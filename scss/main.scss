@@ -1,0 +1,45 @@
+/*-------------------*/
+/*  GLOBAL          */
+/*-----------------*/
+
+html {
+  box-sizing: border-box;
+  height:100%;
+  min-height: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  height:100%;
+  min-height: 100%;
+  background: black;
+}
+
+.svg-container {
+    width: 100%;
+    height: 0;
+    padding-top: 100%;
+    position: relative;
+}
+
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.background {
+  fill:url('#background-gradient');
+}
+
+/*BACK BUILDING*/
+.back-background{fill:#ddd4a3;}
+.back-window-1{fill:#CCC598;}
+.back-window-2{fill:#58595b;}
+.back-window-3{fill:#e5daa5;}
+.back-window-4{fill:#414042;}
